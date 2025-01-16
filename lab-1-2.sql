@@ -2,7 +2,7 @@
 -- starting with the fewest wins?
 
 -- Expected result: 2955 rows, ending with
---
+SELECT year, name, wins FROM teams ORDER BY wins LIMIT (5);
 -- | 2018 | Boston Red Sox                    | 108  |
 -- | 1961 | New York Yankees                  | 109  |
 -- | 1969 | Baltimore Orioles                 | 109  |

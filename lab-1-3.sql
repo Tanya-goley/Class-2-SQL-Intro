@@ -1,7 +1,7 @@
 -- Which three teams had the losingest seasons?
 
 -- Expected result:
---
+select year, name, losses from teams order by losses DESC Limit 3;
 -- +------+----------------------+------+--------+
 -- | 1899 | Cleveland Spiders    | 20   | 134    |
 -- | 1962 | New York Mets.       | 40   | 120    |
